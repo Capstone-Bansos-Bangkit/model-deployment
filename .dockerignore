@@ -1,0 +1,7 @@
+Dockerfile
+*.pyc
+*.pyo
+*.pyd
+__pychace__
+.pytest_chace
+.idea
