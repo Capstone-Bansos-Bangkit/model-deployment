@@ -41,25 +41,14 @@
 ## API Documentation
 -   Endpoint: GET `/`
 
-    This endpoint will return success to make sure that the service is running properly.
-
+    This endpoint will return `Success` to make sure that the service is running properly.
+    
 -   Endpoint: POST `/`
 
-    Parameters:
-    - AR16 : user answer.
-    - KR03 : user answer.
-    - KR11 : user answer.
-    - KR13 : user answer.
-    - KR20 : user answer.
-    - KR24 : user answer.
-    - KR26 : user answer.
-    - KRK06 : user answer.
-    - KRK08 : user answer.
-    - KRK09 : user answer.
-    - KRK10 : user answer.
-
-    This endpoint accepts requests in JSON format and returns a result of `1` or `0`. The representative is 1: approved and 0: rejected.
+    Request body: JSON data containing the question_id and answer to be predicted.
     
+    This endpoint will return a result of `1` or `0`. The representative is 1: approved and 0: rejected.
+
     Example:
     ```
     {
@@ -84,6 +73,3 @@
     }
     ```
         
-    
-
-
