@@ -23,7 +23,7 @@
     cd model-deployment
     ```
 
--   ### Build image and push it to the Container Registry.
+-   ### Build image and push it to the Container Registry
     ```
     gcloud builds submit --tag gcr.io/[project_id]/[image_name]
     ```
@@ -42,7 +42,7 @@
 -   Endpoint: GET `/`
 
     This endpoint will return `Success` to make sure that the service is running properly.
-    
+
 -   Endpoint: POST `/`
 
     Request body: JSON data containing the question_id and answer to be predicted.
