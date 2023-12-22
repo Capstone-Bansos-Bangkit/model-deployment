@@ -47,7 +47,7 @@
 
     Request body: JSON data containing the question_id and answer to be predicted.
     
-    This endpoint will return a result of `1` or `0`. The representative is 1: approved and 0: rejected.
+    This endpoint will return a result of `1` or `0`. The representative is 1: eligible and 0: not_eligible.
 
     Example:
     ```
